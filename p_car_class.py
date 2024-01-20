@@ -1,4 +1,4 @@
-'''
+''' QUESTION
 Given the following class representing a Car, add a method ‘start engine’ that prints ‘Engine
 started.’
 c l a s s Car :
@@ -28,3 +28,9 @@ class Car:
 my_car = Car("Toyota", "Camry")
 my_car.display_info()
 my_car.start_engine()
+
+''' OUTPUT
+$ python3 p_car_class.py 
+Toyota Camry
+Engine started.
+'''

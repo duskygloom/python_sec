@@ -1,3 +1,8 @@
+''' QUESTION
+Create a basic calculator program that takes two numbers and an operation (addition, sub-
+traction, multiplication, or division) as input. Perform the calculation and display the result.
+'''
+
 def menu() -> int:
     print("1. Add")
     print("2. Subtract")
@@ -25,4 +30,30 @@ elif response == 3:
 elif response == 4:
     result = a / b
 
-print(f"Result: {result}")
+print(f"Result: {result:.4f}")
+
+''' OUTPUT
+$ python3 c_basic_calculator.py 
+Operator A: 12
+Operator B: 19
+
+1. Add
+2. Subtract
+3. Multiplication
+4. Division
+Response: 1
+
+Result: 31.0
+
+$ python3 c_basic_calculator.py 
+Operator A: 20
+Operator B: 3
+
+1. Add
+2. Subtract
+3. Multiplication
+4. Division
+Response: 4
+
+Result: 6.6667
+'''

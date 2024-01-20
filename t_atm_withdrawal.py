@@ -1,4 +1,4 @@
-'''
+''' QUESTION
 Write a program that simulates an ATM withdrawal. Ask them to modify the code to include
 a maximum withdrawal limit of 2000 rupees per transaction.
 a c c o u n t b a l a n c e = 10 000 # Assuming i n i t i a l a c c o u n t b a l a n c e i s 1 000 0 r u p e e s
@@ -27,3 +27,13 @@ elif withdrawal_amount % 100 == 0:
 
 else:
     print("Withdrawal amount must be divisible by 100.")
+
+''' OUTPUT
+$ python3 t_atm_withdrawal.py 
+Enter the amount you want to withdraw: 2500
+Withdrawal amount must be less than 2000.
+
+$ python3 t_atm_withdrawal.py 
+Enter the amount you want to withdraw: 2000
+Withdrawal successful. Remaining balance: 8000
+'''

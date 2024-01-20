@@ -1,4 +1,4 @@
-'''
+''' QUESTION
 Write a program that calculates ticket prices based on age. Ask them to modify the code to
 include a discount of 10% for students (ages 13-18) and seniors (ages 61 and above).
 a g e = i n t ( i n p u t ( ‘ E n t e r y o u r a g e : ’ ) )
@@ -35,3 +35,13 @@ else:
     ticket_price *= 0.9
 
 print(f"The ticket price for a {age}-year old is: {ticket_price}")
+
+''' OUTPUT
+$ python3 s_price_per_age.py 
+Enter your age: 10
+The ticket price for a 10-year old is: 5
+
+$ python3 s_price_per_age.py 
+Enter your age: 20
+The ticket price for a 20-year old is: 15
+'''

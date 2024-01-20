@@ -1,4 +1,4 @@
-'''
+''' QUESTION
 Write a function that generates the Fibonacci series up to a specified number of terms.
 '''
 
@@ -17,3 +17,13 @@ def fibonacci(n: int) -> list[int]:
 
 n = int(input("Number of terms: "))
 print(f"Fibonacci series: {fibonacci(n)}")
+
+''' OUTPUT
+$ python3 h_fibonacci.py 
+Number of terms: 4
+Fibonacci series: [0, 1, 1, 2]
+
+$ python3 h_fibonacci.py 
+Number of terms: 14
+Fibonacci series: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233]
+'''

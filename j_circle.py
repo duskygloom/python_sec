@@ -1,4 +1,4 @@
-'''
+''' QUESTION
 Given the following class representing a Circle, add a method calculate ‘circumference’ that
 returns the circumference of the circle.
 c l a s s C i r c l e :
@@ -25,3 +25,9 @@ class Circle:
 circle = Circle(5)
 print("Area:", circle.calculate_area())
 print("Circumference:", circle.calculate_circumference())
+
+''' OUTPUT
+$ python3 j_circle.py 
+Area: 78.5
+Circumference: 31.400000000000002
+'''

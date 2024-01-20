@@ -1,4 +1,4 @@
-'''
+''' QUESTION
 The following code contains an error related to division by zero. Modify the code to handle
 this error gracefully.
 n u m e ra t o r = i n t ( i n p u t ( ‘ E n t e r t h e n um e r a t o r : ’ ) )
@@ -16,4 +16,16 @@ try:
 except ZeroDivisionError as e:
     print("Encountered zero division error.")
     print("The result of the division: undefined")
-    
+
+''' OUTPUT
+$ python3 k_division_by_zero.py 
+Enter the numerator: 20
+Enter the denominator: 0
+Encountered zero division error.
+The result of the division: undefined
+
+$ python3 k_division_by_zero.py 
+Enter the numerator: 20
+Enter the denominator: 2
+The result of the division: 10.0
+'''

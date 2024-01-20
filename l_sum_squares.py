@@ -1,4 +1,4 @@
-'''
+''' QUESTION
 Given the following function, modify it to take two parameters (a and b) and return the sum
 of their squares.
 d e f s q u a r e s u m ( ) :
@@ -13,3 +13,6 @@ def square_sum(a, b):
     b = input("Enter the second number: ")
     result = int(a)*int(a) + int(b)*int(b)
     return result
+
+''' OUTPUT
+'''

@@ -1,4 +1,4 @@
-'''
+''' QUESTION
 Given the following code for a simple temperature converter, modify it to handle both Celsius
 to Fahrenheit and Fahrenheit to Celsius conversions based on user input.
 c h o i c e = i n p u t ( ‘ E n t e r ’C’ f o r C e l s i u s t o F a h r e n h e i t o r ’ F ’ f o r F a h r e n h e i t t o C e l s i u s : ’ )
@@ -26,3 +26,14 @@ elif choice == 'F':
 
 else:
     print("Invalid choice. Please enter 'C' or 'F'.")
+
+''' OUTPUT
+$ python3 q_modify_temperature.py 
+Enter 'C' for Celsius to Fahrenheit or 'F' for Fahrenheit to Celsius: f
+Invalid choice. Please enter 'C' or 'F'.
+
+$ python3 q_modify_temperature.py 
+Enter 'C' for Celsius to Fahrenheit or 'F' for Fahrenheit to Celsius: C
+Enter temperature in Celsius: 20
+The temperature in Fahrenheit is: 68.0
+'''
